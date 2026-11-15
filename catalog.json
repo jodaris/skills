@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "version": "0.2.0",
+  "repository": "jodaris/skills",
+  "plugins": [
+    {
+      "id": "jodaris-design",
+      "name": "JODARIS Design",
+      "description": "Design interface interactions, visual hierarchy, responsive layouts and accessibility. Use for human-facing UX or presentation changes; backend architecture, security controls and model behavior are outside this skill. A different project-designated provider takes precedence.",
+      "domain": "interface-design",
+      "owns": [
+        "interaction-specification",
+        "visual-token-usage",
+        "interface-accessibility",
+        "responsive-layout"
+      ],
+      "excludes": [
+        "application-security",
+        "software-architecture",
+        "model-behavior"
+      ]
+    },
+    {
+      "id": "jodaris-security",
+      "name": "JODARIS Security",
+      "description": "Design or review trust boundaries, identity and authorization controls, sensitive-data protection and adversarial defenses. Use when these security properties change or need assessment; routine coding, presentation and model-quality tuning are outside this skill. A different project-designated provider takes precedence.",
+      "domain": "application-security",
+      "owns": [
+        "threat-modeling",
+        "authorization-policy",
+        "secret-protection",
+        "injection-defense",
+        "security-denial-testing"
+      ],
+      "excludes": [
+        "interface-design",
+        "software-architecture",
+        "model-behavior"
+      ]
+    },
+    {
+      "id": "jodaris-software-engineering",
+      "name": "JODARIS Software Engineering",
+      "description": "Design module boundaries, dependency direction and public API contracts. Use for architecture or interface-contract changes; routine coding, UI/UX, security controls and model behavior are outside this skill. A different project-designated provider takes precedence.",
+      "domain": "software-architecture",
+      "owns": [
+        "module-boundary-design",
+        "dependency-direction",
+        "public-api-compatibility",
+        "domain-contract-design"
+      ],
+      "excludes": [
+        "interface-design",
+        "application-security",
+        "model-behavior"
+      ]
+    },
+    {
+      "id": "jodaris-ai-engineering",
+      "name": "JODARIS AI Engineering",
+      "description": "Design prompts, retrieval behavior, model-response schemas, quality evaluations and inference budgets. Use for model-behavior changes; interface design, general software architecture and security controls are outside this skill. A different project-designated provider takes precedence.",
+      "domain": "model-behavior",
+      "owns": [
+        "prompt-design",
+        "retrieval-quality",
+        "model-output-schema",
+        "model-quality-evaluation",
+        "inference-budgeting"
+      ],
+      "excludes": [
+        "interface-design",
+        "application-security",
+        "software-architecture"
+      ]
+    }
+  ]
+}

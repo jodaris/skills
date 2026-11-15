@@ -1,0 +1,9 @@
+{
+  "name": "jodaris-security",
+  "version": "0.2.0",
+  "description": "Design or review trust boundaries, identity and authorization controls, sensitive-data protection and adversarial defenses. Use when these security properties change or need assessment; routine coding, presentation and model-quality tuning are outside this skill. A different project-designated provider takes precedence.",
+  "author": {
+    "name": "JODARIS"
+  },
+  "license": "MIT"
+}
