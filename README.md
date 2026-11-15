@@ -1,30 +1,63 @@
-# JODARIS skills
+# JODARIS Skills
 
-Portable development guidance for Codex and Claude Code. The four independent plugins cover design, security, software engineering and AI engineering. They respect each project's architecture, tools and explicit requirements.
+Focused skills for **Codex** and **Claude Code**, covering interface design, application security, software architecture, and AI engineering. Use them across projects and technology stacks while keeping your existing conventions and tools.
 
-## Domain ownership
+## Choose a skill
 
-| Plugin | Exclusive specialist domain | Typical trigger |
-| --- | --- | --- |
-| `jodaris-design` | Human-facing interface design | Change a user flow, layout, visual state or accessibility behavior |
-| `jodaris-security` | Application security | Change or assess trust, authorization, sensitive-data exposure or adversarial defenses |
-| `jodaris-software-engineering` | Software architecture and public contracts | Change module responsibilities, dependencies or API compatibility |
-| `jodaris-ai-engineering` | Model behavior and inference quality | Change prompts, retrieval, model-response schemas, quality evaluations or inference budgets |
+| Skill | What it helps you do |
+| --- | --- |
+| **[Design](src/jodaris-design/SKILL.md)** · `jodaris-design` | Improve user flows, visual hierarchy, responsive layouts, and accessibility. |
+| **[Security](src/jodaris-security/SKILL.md)** · `jodaris-security` | Design and review authorization, trust boundaries, sensitive-data handling, and defenses against malicious input. |
+| **[Software engineering](src/jodaris-software-engineering/SKILL.md)** · `jodaris-software-engineering` | Define module responsibilities, dependency direction, public APIs, and compatibility contracts. |
+| **[AI engineering](src/jodaris-ai-engineering/SKILL.md)** · `jodaris-ai-engineering` | Improve prompts, retrieval, response schemas, model evaluations, and inference budgets. |
 
-Use one provider per domain, preferring a workflow already designated by the project. Load another domain skill only for a separate deliverable. Restyling a login form uses design; changing its authorization gate uses security. Tuning retrieval uses AI engineering; reviewing malicious retrieved instructions uses security. Routine coding does not automatically load the software-architecture skill. General safe development practices still apply through project instructions.
+Each skill has a distinct domain. Choose the skills relevant to your task. If your project already uses a specialist for that domain, keep one provider rather than loading overlapping guidance.
 
-`catalog.json` records primary domains, exclusive capability ownership and excluded domains. The builder rejects duplicate owners, missing/invalid domains, repeated capability ownership and descriptions that drift from source skills. These checks support semantic review; they do not prove that a model will always route a request correctly.
+## Install
 
-## Use a release
+### Claude Code
 
-Download a version from [GitHub Releases](https://github.com/jodaris/skills/releases) or check out its immutable `v<version>` tag. Codex plugin packages are under `codex/<plugin-id>`; Claude Code packages are under `claude/<plugin-id>`. Each package contains its own skill and client manifest. Install plugins through the supported client workflow. For Claude Code, add this GitHub repository as a plugin marketplace (`/plugin marketplace add jodaris/skills`), then install the selected plugin (`/plugin install jodaris-design@jodaris`). For local testing use `claude --plugin-dir ./claude/jodaris-design`.
+Add the marketplace in a Claude Code session:
 
-For Codex, use the client's local plugin installation workflow with `codex/<plugin-id>`. Where plugin installation is unavailable, copy only `skills/<plugin-id>` from that package into the project's `.agents/skills/` directory. For standalone Claude skills use `.claude/skills/`. Choose one installation method per skill to avoid duplicate discovery. Installation does not grant tools or credentials.
+```text
+/plugin marketplace add jodaris/skills
+```
 
-## Develop and release
+Install a skill, for example:
 
-Requires Node.js 22.14 or later and no npm dependencies. Edit `src/`, run `npm run build`, `npm run check` and `npm test`. Commit the source and both generated distributions together. Increment both the catalog and package version before changing a published release. `skills-release.json` records the exact public file inventory and SHA-256 hashes.
+```text
+/plugin install jodaris-design@jodaris
+```
 
-CloudIgniter Publisher's Skills section reviews and submits this inventory to `jodaris/skills` through a pull request, using the selected GitHub account. It preserves files outside the prior release inventory and refuses reused versions. After review and merge to `main`, the release workflow validates the distributions and creates the version tag and a GitHub Release with the integrity manifest. Configure branch protection and required review on the public repository separately. Initial publishing requires the public repository to exist with `main` as its default branch and the selected Publisher account to have write access. For an empty repository, the publication review includes a minimal initial README; Publisher initializes that base, then submits the skills through the normal release pull request. It does not overwrite an existing README during initialization. When separate publication roles are configured, repository initialization ends as an owner-only action; switch to the configured author to create the release PR. In the JODARIS setup, `Shadi-Ayoub` submits changes while `jodaris` approves and performs the final merge. The included CODEOWNERS assigns review to `@jodaris`; repository rules must enforce required owner approval, the quality check and owner-only merges. The version check accepts a first release when the existing base branch has no release manifest. A missing base ref or an unreadable existing manifest remains an error; later inventory changes require a higher version.
+Replace `jodaris-design` with another skill ID from the table. Choose the installation scope offered by Claude Code to use it personally or in a project. See the [Claude Code installation guide](https://code.claude.com/docs/en/discover-plugins) for supported clients and plugin management.
 
-CloudIgniter's maintainer and application plugins have separate ownership and releases. They are not included in this platform-agnostic public repository.
+### Codex
+
+1. Download and extract the source archive from a [published release](https://github.com/jodaris/skills/releases).
+2. Copy `codex/jodaris-design/skills/jodaris-design` into your project's `.agents/skills/` directory.
+3. Open Codex in that project and reference the skill in your request:
+
+```text
+$jodaris-design improve the accessibility and layout of this settings page.
+```
+
+The installed folder should contain `.agents/skills/jodaris-design/SKILL.md`. Replace `jodaris-design` with another skill ID to install a different domain. See the [Codex skills guide](https://developers.openai.com/codex/skills/) for skill discovery and additional installation locations.
+
+## Use the skills
+
+Describe the outcome you want and name the relevant skill when you want to select it explicitly. For example:
+
+- Use `jodaris-design` to improve a form's layout and keyboard interaction.
+- Use `jodaris-security` to review a server endpoint's authorization checks.
+- Use `jodaris-software-engineering` to define module boundaries and an API migration.
+- Use `jodaris-ai-engineering` to evaluate retrieval quality and improve grounded responses.
+
+For work spanning several domains, apply each skill to its own part of the task. Your project's requirements, architecture, and established workflows remain the context for the work.
+
+## Updates
+
+Use [GitHub Releases](https://github.com/jodaris/skills/releases) to choose a version for a reproducible setup. Update Claude Code installations through its plugin manager. For manually installed Codex skills, replace the installed skill folder with the corresponding folder from the new release, preserving any local customizations.
+
+## License
+
+[MIT](LICENSE).
