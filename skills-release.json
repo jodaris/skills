@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "kind": "jodaris-skills",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "repository": "jodaris/skills",
-  "digest": "5add68fdba673a5fb8da28d7a5bf74bf08cb1dafc12894d3cb21165482683a60",
+  "digest": "2dfc501bfbf5540befea73c15946ae6c19ab2b969a55f74ba55aebfdc0bb7b99",
   "plugins": [
     "jodaris-design",
     "jodaris-security",
@@ -13,7 +13,7 @@
   "files": [
     {
       "path": ".claude-plugin/marketplace.json",
-      "sha256": "25a9b0901584426f3956802339a03c7eca961bec606f8e12f0258e8475d920b2",
+      "sha256": "a6d81cc759986d4f8c6e1a602d5c8dcac82ba235e25be25d00a0f4e7b1393a0a",
       "bytes": 1832
     },
     {
@@ -43,17 +43,17 @@
     },
     {
       "path": "README.md",
-      "sha256": "caa46881861149b5e5849fda7212182a401aaacacf532a7a9e06291e87ff4f5a",
-      "bytes": 4810
+      "sha256": "6d57607d4d7986b633559d9cb6ab8d71e6b697188733540a4bdcba7279f3d1ca",
+      "bytes": 3444
     },
     {
       "path": "catalog.json",
-      "sha256": "69a519691808c1b6d09286e724179c5750003653f321a183e4812fe25d713361",
+      "sha256": "3dc88ea9ed7d8daa13cd5a467c0c797e9b5fa8fb5a05541961a4401d4fedd412",
       "bytes": 2980
     },
     {
       "path": "claude/jodaris-ai-engineering/.claude-plugin/plugin.json",
-      "sha256": "b4c7c165acfeacd31ca121e3c17fbd6a4138e9c95c9824efad1fdb06e45f395e",
+      "sha256": "996944142f8dfae32b7ef090711a8ffd509840c9409d3553768ccb47ceace1c0",
       "bytes": 429
     },
     {
@@ -68,7 +68,7 @@
     },
     {
       "path": "claude/jodaris-design/.claude-plugin/plugin.json",
-      "sha256": "45edf81cc35d643ac27ed468a51abf7a0df9d1c0110be1ee633fa26aac786787",
+      "sha256": "7bbd1304ab402a3d4915938fa473b89adedb90e52b9241e99277c22909ffb451",
       "bytes": 411
     },
     {
@@ -83,7 +83,7 @@
     },
     {
       "path": "claude/jodaris-security/.claude-plugin/plugin.json",
-      "sha256": "f4624c895aae33e886d6021de375b58250c1d98a571cf37cf5c58df4c5942518",
+      "sha256": "7ab0f3f2000cae539a6c15be00b2f200d9a7c31e26900748e3f66004f8e4b529",
       "bytes": 458
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "path": "claude/jodaris-software-engineering/.claude-plugin/plugin.json",
-      "sha256": "9628dfd9506c6bc756ee9bb9355b9aacb44949bd88d979be9370ce54a42e88d0",
+      "sha256": "134db5470dd6cf6180d17cb8aef79a1a279adaf4a203b064f9cdadc9628c5a40",
       "bytes": 415
     },
     {
@@ -113,7 +113,7 @@
     },
     {
       "path": "codex/jodaris-ai-engineering/.codex-plugin/plugin.json",
-      "sha256": "023785ac4865a6071424bae0117477d037df151071fe59ff7e96eb78b016da0e",
+      "sha256": "792bc51d2bd5a36ed17ebdfbb600404dcb5affdfdf2d897c00afe54f1f4240b8",
       "bytes": 454
     },
     {
@@ -123,7 +123,7 @@
     },
     {
       "path": "codex/jodaris-ai-engineering/plugin.json",
-      "sha256": "b43b5cc43dc3ad976ceb21f6f488854b48acca1cb3f7b2b98f34280dbde3452e",
+      "sha256": "2443e7dbb38e3d7c8dbeaf00bab2a48d3eab6f0b1f2fb7a2dee3df02926d6487",
       "bytes": 443
     },
     {
@@ -133,7 +133,7 @@
     },
     {
       "path": "codex/jodaris-design/.codex-plugin/plugin.json",
-      "sha256": "711b7162e1f4dc356fe3698959f85f04da2405f5f34a967a0e8688bcfa85d0a9",
+      "sha256": "be82aa25f5ffb54f38b913796350de228f6eb2a183491da4642453d6ab78e6fd",
       "bytes": 436
     },
     {
@@ -143,7 +143,7 @@
     },
     {
       "path": "codex/jodaris-design/plugin.json",
-      "sha256": "00e79e97e4b4785c9862cdbffc2b4b78e8026b19b307b5c1589ec024bdcafdc1",
+      "sha256": "a82cddbf28abed31036a51dbd90bcc68deafd84635158646dc98d911d64cc254",
       "bytes": 425
     },
     {
@@ -153,7 +153,7 @@
     },
     {
       "path": "codex/jodaris-security/.codex-plugin/plugin.json",
-      "sha256": "1809c5af892cba7da0a3c6a283f476d7a8686fddc45f36b5293c0116d8dc6e8a",
+      "sha256": "f10bdb7dc8412182d366bee83c88bf8e3616e04454cc130990d72e66f4b44d54",
       "bytes": 483
     },
     {
@@ -163,7 +163,7 @@
     },
     {
       "path": "codex/jodaris-security/plugin.json",
-      "sha256": "6f4e511db7e999f37ab96fb75a41f0def11d231c1e4f5606af40ad4a784d557b",
+      "sha256": "f01e72bf24db0cf24188654970b7685f69d79b808f9799400d41fb6ace10c6d4",
       "bytes": 472
     },
     {
@@ -173,7 +173,7 @@
     },
     {
       "path": "codex/jodaris-software-engineering/.codex-plugin/plugin.json",
-      "sha256": "dd3e2a2216359d14ebff36ebbfcb02d974bd956d868dc719a178d9c77f7a00cc",
+      "sha256": "430bb5670b82de30871f45593fba0b0b88c06a9b44b84d5fa5789be4772ff8d5",
       "bytes": 440
     },
     {
@@ -183,7 +183,7 @@
     },
     {
       "path": "codex/jodaris-software-engineering/plugin.json",
-      "sha256": "ea4b183a29c53b27fee5deb707dba293169342926b63894d532a92c88672015c",
+      "sha256": "30773c64cace7f79351fc7b7f83e52264bdae4c672e6f0c986d2a09dead2660e",
       "bytes": 429
     },
     {
@@ -193,7 +193,7 @@
     },
     {
       "path": "package.json",
-      "sha256": "b8fc74d2fe59b86e1032fb813c99073cbe1668fef6a511e2ed33c7e84e9b8edb",
+      "sha256": "51f58707c9d39fcb6074097309c9fd3e4a4fc0da8142585d77792f0802c8cd4c",
       "bytes": 306
     },
     {
