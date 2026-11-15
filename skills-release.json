@@ -1,0 +1,250 @@
+{
+  "schemaVersion": 1,
+  "kind": "jodaris-skills",
+  "version": "0.2.0",
+  "repository": "jodaris/skills",
+  "digest": "5add68fdba673a5fb8da28d7a5bf74bf08cb1dafc12894d3cb21165482683a60",
+  "plugins": [
+    "jodaris-design",
+    "jodaris-security",
+    "jodaris-software-engineering",
+    "jodaris-ai-engineering"
+  ],
+  "files": [
+    {
+      "path": ".claude-plugin/marketplace.json",
+      "sha256": "25a9b0901584426f3956802339a03c7eca961bec606f8e12f0258e8475d920b2",
+      "bytes": 1832
+    },
+    {
+      "path": ".github/CODEOWNERS",
+      "sha256": "bd8521cd5be40c4b7aacfb5b37dd2d6eec1d3b092b5e79b02666aded3ddf4283",
+      "bytes": 11
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "sha256": "9b203e7d02ab8886c24c434614a26b98bbe200cb089cc3d82b909de337b536ac",
+      "bytes": 931
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "9f6189cd9c1102e61b0cd2a60c0c759bde7a84168694225ee1707691f5224eff",
+      "bytes": 40
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "86de843d80604f28ee2728ef81879748190241880217cf3b182310b8bfa35a51",
+      "bytes": 1929
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "b2d360a8677a069559bf8995838658fd619846bb1b7009d6eeeb9faed510fb71",
+      "bytes": 1064
+    },
+    {
+      "path": "README.md",
+      "sha256": "caa46881861149b5e5849fda7212182a401aaacacf532a7a9e06291e87ff4f5a",
+      "bytes": 4810
+    },
+    {
+      "path": "catalog.json",
+      "sha256": "69a519691808c1b6d09286e724179c5750003653f321a183e4812fe25d713361",
+      "bytes": 2980
+    },
+    {
+      "path": "claude/jodaris-ai-engineering/.claude-plugin/plugin.json",
+      "sha256": "b4c7c165acfeacd31ca121e3c17fbd6a4138e9c95c9824efad1fdb06e45f395e",
+      "bytes": 429
+    },
+    {
+      "path": "claude/jodaris-ai-engineering/LICENSE",
+      "sha256": "b2d360a8677a069559bf8995838658fd619846bb1b7009d6eeeb9faed510fb71",
+      "bytes": 1064
+    },
+    {
+      "path": "claude/jodaris-ai-engineering/skills/jodaris-ai-engineering/SKILL.md",
+      "sha256": "b9e4b701cab0c3e83ec7ee1cdfe14fb8ac633b02156a5c4c1b4f21efece04fcf",
+      "bytes": 2363
+    },
+    {
+      "path": "claude/jodaris-design/.claude-plugin/plugin.json",
+      "sha256": "45edf81cc35d643ac27ed468a51abf7a0df9d1c0110be1ee633fa26aac786787",
+      "bytes": 411
+    },
+    {
+      "path": "claude/jodaris-design/LICENSE",
+      "sha256": "b2d360a8677a069559bf8995838658fd619846bb1b7009d6eeeb9faed510fb71",
+      "bytes": 1064
+    },
+    {
+      "path": "claude/jodaris-design/skills/jodaris-design/SKILL.md",
+      "sha256": "131a290f101cf31acc753332f3acb25e0978f5ff2bebab09ad595e5af22a4aea",
+      "bytes": 2130
+    },
+    {
+      "path": "claude/jodaris-security/.claude-plugin/plugin.json",
+      "sha256": "f4624c895aae33e886d6021de375b58250c1d98a571cf37cf5c58df4c5942518",
+      "bytes": 458
+    },
+    {
+      "path": "claude/jodaris-security/LICENSE",
+      "sha256": "b2d360a8677a069559bf8995838658fd619846bb1b7009d6eeeb9faed510fb71",
+      "bytes": 1064
+    },
+    {
+      "path": "claude/jodaris-security/skills/jodaris-security/SKILL.md",
+      "sha256": "8557a6792cde31ed80aa0a414eeceb0c50a28e58d5301a1f31cfb52421ba8463",
+      "bytes": 2478
+    },
+    {
+      "path": "claude/jodaris-software-engineering/.claude-plugin/plugin.json",
+      "sha256": "9628dfd9506c6bc756ee9bb9355b9aacb44949bd88d979be9370ce54a42e88d0",
+      "bytes": 415
+    },
+    {
+      "path": "claude/jodaris-software-engineering/LICENSE",
+      "sha256": "b2d360a8677a069559bf8995838658fd619846bb1b7009d6eeeb9faed510fb71",
+      "bytes": 1064
+    },
+    {
+      "path": "claude/jodaris-software-engineering/skills/jodaris-software-engineering/SKILL.md",
+      "sha256": "72ae24c0643f9b08e935d5542d4bf7c378b9814066fa3e3fe87dc90bc7ffc2f3",
+      "bytes": 2328
+    },
+    {
+      "path": "codex/jodaris-ai-engineering/.codex-plugin/plugin.json",
+      "sha256": "023785ac4865a6071424bae0117477d037df151071fe59ff7e96eb78b016da0e",
+      "bytes": 454
+    },
+    {
+      "path": "codex/jodaris-ai-engineering/LICENSE",
+      "sha256": "b2d360a8677a069559bf8995838658fd619846bb1b7009d6eeeb9faed510fb71",
+      "bytes": 1064
+    },
+    {
+      "path": "codex/jodaris-ai-engineering/plugin.json",
+      "sha256": "b43b5cc43dc3ad976ceb21f6f488854b48acca1cb3f7b2b98f34280dbde3452e",
+      "bytes": 443
+    },
+    {
+      "path": "codex/jodaris-ai-engineering/skills/jodaris-ai-engineering/SKILL.md",
+      "sha256": "b9e4b701cab0c3e83ec7ee1cdfe14fb8ac633b02156a5c4c1b4f21efece04fcf",
+      "bytes": 2363
+    },
+    {
+      "path": "codex/jodaris-design/.codex-plugin/plugin.json",
+      "sha256": "711b7162e1f4dc356fe3698959f85f04da2405f5f34a967a0e8688bcfa85d0a9",
+      "bytes": 436
+    },
+    {
+      "path": "codex/jodaris-design/LICENSE",
+      "sha256": "b2d360a8677a069559bf8995838658fd619846bb1b7009d6eeeb9faed510fb71",
+      "bytes": 1064
+    },
+    {
+      "path": "codex/jodaris-design/plugin.json",
+      "sha256": "00e79e97e4b4785c9862cdbffc2b4b78e8026b19b307b5c1589ec024bdcafdc1",
+      "bytes": 425
+    },
+    {
+      "path": "codex/jodaris-design/skills/jodaris-design/SKILL.md",
+      "sha256": "131a290f101cf31acc753332f3acb25e0978f5ff2bebab09ad595e5af22a4aea",
+      "bytes": 2130
+    },
+    {
+      "path": "codex/jodaris-security/.codex-plugin/plugin.json",
+      "sha256": "1809c5af892cba7da0a3c6a283f476d7a8686fddc45f36b5293c0116d8dc6e8a",
+      "bytes": 483
+    },
+    {
+      "path": "codex/jodaris-security/LICENSE",
+      "sha256": "b2d360a8677a069559bf8995838658fd619846bb1b7009d6eeeb9faed510fb71",
+      "bytes": 1064
+    },
+    {
+      "path": "codex/jodaris-security/plugin.json",
+      "sha256": "6f4e511db7e999f37ab96fb75a41f0def11d231c1e4f5606af40ad4a784d557b",
+      "bytes": 472
+    },
+    {
+      "path": "codex/jodaris-security/skills/jodaris-security/SKILL.md",
+      "sha256": "8557a6792cde31ed80aa0a414eeceb0c50a28e58d5301a1f31cfb52421ba8463",
+      "bytes": 2478
+    },
+    {
+      "path": "codex/jodaris-software-engineering/.codex-plugin/plugin.json",
+      "sha256": "dd3e2a2216359d14ebff36ebbfcb02d974bd956d868dc719a178d9c77f7a00cc",
+      "bytes": 440
+    },
+    {
+      "path": "codex/jodaris-software-engineering/LICENSE",
+      "sha256": "b2d360a8677a069559bf8995838658fd619846bb1b7009d6eeeb9faed510fb71",
+      "bytes": 1064
+    },
+    {
+      "path": "codex/jodaris-software-engineering/plugin.json",
+      "sha256": "ea4b183a29c53b27fee5deb707dba293169342926b63894d532a92c88672015c",
+      "bytes": 429
+    },
+    {
+      "path": "codex/jodaris-software-engineering/skills/jodaris-software-engineering/SKILL.md",
+      "sha256": "72ae24c0643f9b08e935d5542d4bf7c378b9814066fa3e3fe87dc90bc7ffc2f3",
+      "bytes": 2328
+    },
+    {
+      "path": "package.json",
+      "sha256": "b8fc74d2fe59b86e1032fb813c99073cbe1668fef6a511e2ed33c7e84e9b8edb",
+      "bytes": 306
+    },
+    {
+      "path": "scripts/build.mjs",
+      "sha256": "94dab3785e4343b1d6b87785a0ef5c9579cb9162c32bb9783cdd21398172d8de",
+      "bytes": 8180
+    },
+    {
+      "path": "scripts/check-version.mjs",
+      "sha256": "dd0f01b03f9be91d097269f2da0eb805792683f666ffb4d607fc6de566c842e8",
+      "bytes": 1028
+    },
+    {
+      "path": "scripts/release.mjs",
+      "sha256": "57181ab16c83f858de76642c28aaa7d6fb5e246027707b96ea872ec47a9f2e8d",
+      "bytes": 1734
+    },
+    {
+      "path": "src/jodaris-ai-engineering/SKILL.md",
+      "sha256": "b9e4b701cab0c3e83ec7ee1cdfe14fb8ac633b02156a5c4c1b4f21efece04fcf",
+      "bytes": 2363
+    },
+    {
+      "path": "src/jodaris-design/SKILL.md",
+      "sha256": "131a290f101cf31acc753332f3acb25e0978f5ff2bebab09ad595e5af22a4aea",
+      "bytes": 2130
+    },
+    {
+      "path": "src/jodaris-security/SKILL.md",
+      "sha256": "8557a6792cde31ed80aa0a414eeceb0c50a28e58d5301a1f31cfb52421ba8463",
+      "bytes": 2478
+    },
+    {
+      "path": "src/jodaris-software-engineering/SKILL.md",
+      "sha256": "72ae24c0643f9b08e935d5542d4bf7c378b9814066fa3e3fe87dc90bc7ffc2f3",
+      "bytes": 2328
+    },
+    {
+      "path": "tests/build.test.mjs",
+      "sha256": "a0918eb088ecac9dbb3633b69bfe3e1359cb854e369bcdfffa2d3acac2efcd8c",
+      "bytes": 3413
+    },
+    {
+      "path": "tests/release.test.mjs",
+      "sha256": "aa59eff88357bba3c5ff4baa36309f0c7f88746024370dc8c0a882cc035b6aed",
+      "bytes": 2038
+    },
+    {
+      "path": "tests/version.test.mjs",
+      "sha256": "1cca006d1575536d511bf81cd5da975630fa489758c9c348f2bc3c434b7bcfb6",
+      "bytes": 3153
+    }
+  ]
+}

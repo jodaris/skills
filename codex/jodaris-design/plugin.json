@@ -1,0 +1,6 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "jodaris-design",
+  "version": "0.2.0",
+  "description": "Design interface interactions, visual hierarchy, responsive layouts and accessibility. Use for human-facing UX or presentation changes; backend architecture, security controls and model behavior are outside this skill. A different project-designated provider takes precedence."
+}
