@@ -1,0 +1,9 @@
+{
+  "name": "jodaris-ai-engineering",
+  "version": "0.2.0",
+  "description": "Design prompts, retrieval behavior, model-response schemas, quality evaluations and inference budgets. Use for model-behavior changes; interface design, general software architecture and security controls are outside this skill. A different project-designated provider takes precedence.",
+  "author": {
+    "name": "JODARIS"
+  },
+  "license": "MIT"
+}

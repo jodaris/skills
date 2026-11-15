@@ -1,0 +1,9 @@
+{
+  "name": "jodaris-software-engineering",
+  "version": "0.2.0",
+  "description": "Design module boundaries, dependency direction and public API contracts. Use for architecture or interface-contract changes; routine coding, UI/UX, security controls and model behavior are outside this skill. A different project-designated provider takes precedence.",
+  "author": {
+    "name": "JODARIS"
+  },
+  "license": "MIT"
+}
