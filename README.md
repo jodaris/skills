@@ -6,7 +6,7 @@ Focused skills for **Codex** and **Claude Code**, covering interface design, app
 
 | Skill | What it helps you do |
 | --- | --- |
-| **[Design](src/jodaris-design/SKILL.md)** · `jodaris-design` | Improve user flows, visual hierarchy, responsive layouts, and accessibility. |
+| **[Design](src/jodaris-design/SKILL.md)** · `jodaris-design` | Design and review user flows, visual systems, responsive layouts, accessibility, and purposeful motion. |
 | **[Security](src/jodaris-security/SKILL.md)** · `jodaris-security` | Design and review authorization, trust boundaries, sensitive-data handling, and defenses against malicious input. |
 | **[Software engineering](src/jodaris-software-engineering/SKILL.md)** · `jodaris-software-engineering` | Define module responsibilities, dependency direction, public APIs, and compatibility contracts. |
 | **[AI engineering](src/jodaris-ai-engineering/SKILL.md)** · `jodaris-ai-engineering` | Improve prompts, retrieval, response schemas, model evaluations, and inference budgets. |
@@ -41,7 +41,7 @@ Replace `jodaris-design` with another skill ID from the table. Choose the instal
 $jodaris-design improve the accessibility and layout of this settings page.
 ```
 
-The installed folder should contain `.agents/skills/jodaris-design/SKILL.md`. Replace `jodaris-design` with another skill ID to install a different domain. See the [Codex skills guide](https://developers.openai.com/codex/skills/) for skill discovery and additional installation locations.
+The installed folder should contain `.agents/skills/jodaris-design/SKILL.md` and its `references/` directory. Copy the complete skill folder so its relative links work. Replace `jodaris-design` with another skill ID to install a different domain. See the [Codex skills guide](https://developers.openai.com/codex/skills/) for skill discovery and additional installation locations.
 
 ## Use the skills
 
@@ -53,6 +53,8 @@ Describe the outcome you want and name the relevant skill when you want to selec
 - Use `jodaris-ai-engineering` to evaluate retrieval quality and improve grounded responses.
 
 For work spanning several domains, apply each skill to its own part of the task. Your project's requirements, architecture, and established workflows remain the context for the work.
+
+Design includes focused references for visual direction, interaction/accessibility, React/shadcn integration, motion, and rendered verification. Its [source selection](src/jodaris-design/references/source-selection.md) explains which upstream resources inform the workflow and which are optional specialists. The skill works without external skills, accounts, MCP servers or datasets. Install browser/test or component tools only when the consuming project needs them; installing this plugin adds no npm packages.
 
 ## Updates
 

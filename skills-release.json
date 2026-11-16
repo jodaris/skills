@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "kind": "jodaris-skills",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "repository": "jodaris/skills",
-  "digest": "2dfc501bfbf5540befea73c15946ae6c19ab2b969a55f74ba55aebfdc0bb7b99",
+  "digest": "04d32ddd877a24934cec3191e0f151ae4a808257a2ddb2da2da5388e961b9fa1",
   "plugins": [
     "jodaris-design",
     "jodaris-security",
@@ -13,8 +13,8 @@
   "files": [
     {
       "path": ".claude-plugin/marketplace.json",
-      "sha256": "a6d81cc759986d4f8c6e1a602d5c8dcac82ba235e25be25d00a0f4e7b1393a0a",
-      "bytes": 1832
+      "sha256": "8f0816f15829e17ccb17f0f07182e5fe8f8d837705e63903e410ff8b6ee878c7",
+      "bytes": 1855
     },
     {
       "path": ".github/CODEOWNERS",
@@ -43,17 +43,17 @@
     },
     {
       "path": "README.md",
-      "sha256": "6d57607d4d7986b633559d9cb6ab8d71e6b697188733540a4bdcba7279f3d1ca",
-      "bytes": 3444
+      "sha256": "10e31f44ad581031352331e681ea6bc25e0171e8221b1c73f66ec1c679ad7606",
+      "bytes": 4077
     },
     {
       "path": "catalog.json",
-      "sha256": "3dc88ea9ed7d8daa13cd5a467c0c797e9b5fa8fb5a05541961a4401d4fedd412",
-      "bytes": 2980
+      "sha256": "c9d8e1f1fe25c6a4eaaea52bba99137fbf39df76bcf5360ede88fe75f1ab8b76",
+      "bytes": 3095
     },
     {
       "path": "claude/jodaris-ai-engineering/.claude-plugin/plugin.json",
-      "sha256": "996944142f8dfae32b7ef090711a8ffd509840c9409d3553768ccb47ceace1c0",
+      "sha256": "5b410310749d9bae22c8a3105feedec9296a31896a4862207f645adac0744577",
       "bytes": 429
     },
     {
@@ -68,8 +68,8 @@
     },
     {
       "path": "claude/jodaris-design/.claude-plugin/plugin.json",
-      "sha256": "7bbd1304ab402a3d4915938fa473b89adedb90e52b9241e99277c22909ffb451",
-      "bytes": 411
+      "sha256": "c676b11cbcc79d27ec531918ea6e3844d96edb583367e13d8eec3475b9738f4d",
+      "bytes": 434
     },
     {
       "path": "claude/jodaris-design/LICENSE",
@@ -78,12 +78,42 @@
     },
     {
       "path": "claude/jodaris-design/skills/jodaris-design/SKILL.md",
-      "sha256": "131a290f101cf31acc753332f3acb25e0978f5ff2bebab09ad595e5af22a4aea",
-      "bytes": 2130
+      "sha256": "399850efc239940d7b39d7ac82e1fef725d13b73904d28bf9876ee5a1c890098",
+      "bytes": 4044
+    },
+    {
+      "path": "claude/jodaris-design/skills/jodaris-design/references/interaction-accessibility.md",
+      "sha256": "64006ac9e2dad867bbdcc0fd29c663753dbcc2b4f92ac278219e6519bc29c102",
+      "bytes": 3455
+    },
+    {
+      "path": "claude/jodaris-design/skills/jodaris-design/references/motion.md",
+      "sha256": "35a3d037ece27d3fe71ad5c44ded7ef74dde1f0632292351ae334796a05f859a",
+      "bytes": 2496
+    },
+    {
+      "path": "claude/jodaris-design/skills/jodaris-design/references/react-components.md",
+      "sha256": "6ae9b86d5f7bf77867e9f52e063c4be2558714cb401b6b7f982b3e8e436ce75d",
+      "bytes": 3412
+    },
+    {
+      "path": "claude/jodaris-design/skills/jodaris-design/references/source-selection.md",
+      "sha256": "fd39a6450cffc6f3dfc08ba7ee13926c2652c5c34b8b882041239bf0f1850515",
+      "bytes": 5394
+    },
+    {
+      "path": "claude/jodaris-design/skills/jodaris-design/references/verification.md",
+      "sha256": "64acf9920abddd69ce12bc97ca7e442212c4d31b39618a9a6f521fd4f332433b",
+      "bytes": 3437
+    },
+    {
+      "path": "claude/jodaris-design/skills/jodaris-design/references/visual-direction.md",
+      "sha256": "2f5af3d4e437e441e219440396106a22ad9e8b8eca2232a3577344eee4f9bc72",
+      "bytes": 3119
     },
     {
       "path": "claude/jodaris-security/.claude-plugin/plugin.json",
-      "sha256": "7ab0f3f2000cae539a6c15be00b2f200d9a7c31e26900748e3f66004f8e4b529",
+      "sha256": "cffc0b6ee27a7a1b8b11f7c23e7ebf2fa1d11245741738941e2612b3cee526bf",
       "bytes": 458
     },
     {
@@ -98,7 +128,7 @@
     },
     {
       "path": "claude/jodaris-software-engineering/.claude-plugin/plugin.json",
-      "sha256": "134db5470dd6cf6180d17cb8aef79a1a279adaf4a203b064f9cdadc9628c5a40",
+      "sha256": "64cec957d6a531d5827d15cedaa436be3425d191b472e2f8916ce415267fdb11",
       "bytes": 415
     },
     {
@@ -113,7 +143,7 @@
     },
     {
       "path": "codex/jodaris-ai-engineering/.codex-plugin/plugin.json",
-      "sha256": "792bc51d2bd5a36ed17ebdfbb600404dcb5affdfdf2d897c00afe54f1f4240b8",
+      "sha256": "0b28604ee1e23df5c5bf180f4b49ca0991a3d05bd7574f15d7bcd621f1bd414e",
       "bytes": 454
     },
     {
@@ -123,7 +153,7 @@
     },
     {
       "path": "codex/jodaris-ai-engineering/plugin.json",
-      "sha256": "2443e7dbb38e3d7c8dbeaf00bab2a48d3eab6f0b1f2fb7a2dee3df02926d6487",
+      "sha256": "2efc8bf743451f6bc3b5b021eb0b9391500af3b514792b66f1c1b725384d603b",
       "bytes": 443
     },
     {
@@ -133,8 +163,8 @@
     },
     {
       "path": "codex/jodaris-design/.codex-plugin/plugin.json",
-      "sha256": "be82aa25f5ffb54f38b913796350de228f6eb2a183491da4642453d6ab78e6fd",
-      "bytes": 436
+      "sha256": "1725caf2fe9d1fb89cc8b584cf88aeb381f0f5c00404a60c63a2dcf0b8f10d06",
+      "bytes": 459
     },
     {
       "path": "codex/jodaris-design/LICENSE",
@@ -143,17 +173,47 @@
     },
     {
       "path": "codex/jodaris-design/plugin.json",
-      "sha256": "a82cddbf28abed31036a51dbd90bcc68deafd84635158646dc98d911d64cc254",
-      "bytes": 425
+      "sha256": "f97c296a1ca1e3921523d9cff6469e64e9aae33864d9eb69fee4a0fcfa9991c3",
+      "bytes": 448
     },
     {
       "path": "codex/jodaris-design/skills/jodaris-design/SKILL.md",
-      "sha256": "131a290f101cf31acc753332f3acb25e0978f5ff2bebab09ad595e5af22a4aea",
-      "bytes": 2130
+      "sha256": "399850efc239940d7b39d7ac82e1fef725d13b73904d28bf9876ee5a1c890098",
+      "bytes": 4044
+    },
+    {
+      "path": "codex/jodaris-design/skills/jodaris-design/references/interaction-accessibility.md",
+      "sha256": "64006ac9e2dad867bbdcc0fd29c663753dbcc2b4f92ac278219e6519bc29c102",
+      "bytes": 3455
+    },
+    {
+      "path": "codex/jodaris-design/skills/jodaris-design/references/motion.md",
+      "sha256": "35a3d037ece27d3fe71ad5c44ded7ef74dde1f0632292351ae334796a05f859a",
+      "bytes": 2496
+    },
+    {
+      "path": "codex/jodaris-design/skills/jodaris-design/references/react-components.md",
+      "sha256": "6ae9b86d5f7bf77867e9f52e063c4be2558714cb401b6b7f982b3e8e436ce75d",
+      "bytes": 3412
+    },
+    {
+      "path": "codex/jodaris-design/skills/jodaris-design/references/source-selection.md",
+      "sha256": "fd39a6450cffc6f3dfc08ba7ee13926c2652c5c34b8b882041239bf0f1850515",
+      "bytes": 5394
+    },
+    {
+      "path": "codex/jodaris-design/skills/jodaris-design/references/verification.md",
+      "sha256": "64acf9920abddd69ce12bc97ca7e442212c4d31b39618a9a6f521fd4f332433b",
+      "bytes": 3437
+    },
+    {
+      "path": "codex/jodaris-design/skills/jodaris-design/references/visual-direction.md",
+      "sha256": "2f5af3d4e437e441e219440396106a22ad9e8b8eca2232a3577344eee4f9bc72",
+      "bytes": 3119
     },
     {
       "path": "codex/jodaris-security/.codex-plugin/plugin.json",
-      "sha256": "f10bdb7dc8412182d366bee83c88bf8e3616e04454cc130990d72e66f4b44d54",
+      "sha256": "8ab167dd9799741283f8cc58491120917b672779b2e5b03ed40651c1552b910c",
       "bytes": 483
     },
     {
@@ -163,7 +223,7 @@
     },
     {
       "path": "codex/jodaris-security/plugin.json",
-      "sha256": "f01e72bf24db0cf24188654970b7685f69d79b808f9799400d41fb6ace10c6d4",
+      "sha256": "79f3680b982ef23170620127bd04070819e4a494d2ea3d34c4b9aa4c1d5933ec",
       "bytes": 472
     },
     {
@@ -173,7 +233,7 @@
     },
     {
       "path": "codex/jodaris-software-engineering/.codex-plugin/plugin.json",
-      "sha256": "430bb5670b82de30871f45593fba0b0b88c06a9b44b84d5fa5789be4772ff8d5",
+      "sha256": "7d57beb9bacbddb79a191d7eb90ab5366be082c788a64a608ab2245be18a966f",
       "bytes": 440
     },
     {
@@ -183,7 +243,7 @@
     },
     {
       "path": "codex/jodaris-software-engineering/plugin.json",
-      "sha256": "30773c64cace7f79351fc7b7f83e52264bdae4c672e6f0c986d2a09dead2660e",
+      "sha256": "d25d480c72d6774d17f071a74430589584e45956b5f455986e227939a7779101",
       "bytes": 429
     },
     {
@@ -193,7 +253,7 @@
     },
     {
       "path": "package.json",
-      "sha256": "51f58707c9d39fcb6074097309c9fd3e4a4fc0da8142585d77792f0802c8cd4c",
+      "sha256": "49a691cfcf6d71cb204123e5a0e497367b93e149597ae8c9809bb1b233ccc7f9",
       "bytes": 306
     },
     {
@@ -218,8 +278,38 @@
     },
     {
       "path": "src/jodaris-design/SKILL.md",
-      "sha256": "131a290f101cf31acc753332f3acb25e0978f5ff2bebab09ad595e5af22a4aea",
-      "bytes": 2130
+      "sha256": "399850efc239940d7b39d7ac82e1fef725d13b73904d28bf9876ee5a1c890098",
+      "bytes": 4044
+    },
+    {
+      "path": "src/jodaris-design/references/interaction-accessibility.md",
+      "sha256": "64006ac9e2dad867bbdcc0fd29c663753dbcc2b4f92ac278219e6519bc29c102",
+      "bytes": 3455
+    },
+    {
+      "path": "src/jodaris-design/references/motion.md",
+      "sha256": "35a3d037ece27d3fe71ad5c44ded7ef74dde1f0632292351ae334796a05f859a",
+      "bytes": 2496
+    },
+    {
+      "path": "src/jodaris-design/references/react-components.md",
+      "sha256": "6ae9b86d5f7bf77867e9f52e063c4be2558714cb401b6b7f982b3e8e436ce75d",
+      "bytes": 3412
+    },
+    {
+      "path": "src/jodaris-design/references/source-selection.md",
+      "sha256": "fd39a6450cffc6f3dfc08ba7ee13926c2652c5c34b8b882041239bf0f1850515",
+      "bytes": 5394
+    },
+    {
+      "path": "src/jodaris-design/references/verification.md",
+      "sha256": "64acf9920abddd69ce12bc97ca7e442212c4d31b39618a9a6f521fd4f332433b",
+      "bytes": 3437
+    },
+    {
+      "path": "src/jodaris-design/references/visual-direction.md",
+      "sha256": "2f5af3d4e437e441e219440396106a22ad9e8b8eca2232a3577344eee4f9bc72",
+      "bytes": 3119
     },
     {
       "path": "src/jodaris-security/SKILL.md",
@@ -233,8 +323,8 @@
     },
     {
       "path": "tests/build.test.mjs",
-      "sha256": "a0918eb088ecac9dbb3633b69bfe3e1359cb854e369bcdfffa2d3acac2efcd8c",
-      "bytes": 3413
+      "sha256": "1dae7243d8c5316281ca68326bc9c62328ba90bf5f97a20c9f3d54a03ed7f9d5",
+      "bytes": 4744
     },
     {
       "path": "tests/release.test.mjs",
