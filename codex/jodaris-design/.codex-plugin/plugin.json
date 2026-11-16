@@ -1,7 +1,7 @@
 {
   "name": "jodaris-design",
-  "version": "0.2.1",
-  "description": "Design interface interactions, visual hierarchy, responsive layouts and accessibility. Use for human-facing UX or presentation changes; backend architecture, security controls and model behavior are outside this skill. A different project-designated provider takes precedence.",
+  "version": "0.3.0",
+  "description": "Design and review human-facing interfaces, visual systems, responsive layouts, accessibility and interaction motion. Use for UI/UX implementation or critique; backend architecture, security controls and model behavior are outside this skill. A different project-designated provider takes precedence.",
   "author": {
     "name": "JODARIS"
   },

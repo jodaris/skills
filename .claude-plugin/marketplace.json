@@ -7,26 +7,26 @@
     {
       "name": "jodaris-design",
       "source": "./claude/jodaris-design",
-      "description": "Design interface interactions, visual hierarchy, responsive layouts and accessibility. Use for human-facing UX or presentation changes; backend architecture, security controls and model behavior are outside this skill. A different project-designated provider takes precedence.",
-      "version": "0.2.1"
+      "description": "Design and review human-facing interfaces, visual systems, responsive layouts, accessibility and interaction motion. Use for UI/UX implementation or critique; backend architecture, security controls and model behavior are outside this skill. A different project-designated provider takes precedence.",
+      "version": "0.3.0"
     },
     {
       "name": "jodaris-security",
       "source": "./claude/jodaris-security",
       "description": "Design or review trust boundaries, identity and authorization controls, sensitive-data protection and adversarial defenses. Use when these security properties change or need assessment; routine coding, presentation and model-quality tuning are outside this skill. A different project-designated provider takes precedence.",
-      "version": "0.2.1"
+      "version": "0.3.0"
     },
     {
       "name": "jodaris-software-engineering",
       "source": "./claude/jodaris-software-engineering",
       "description": "Design module boundaries, dependency direction and public API contracts. Use for architecture or interface-contract changes; routine coding, UI/UX, security controls and model behavior are outside this skill. A different project-designated provider takes precedence.",
-      "version": "0.2.1"
+      "version": "0.3.0"
     },
     {
       "name": "jodaris-ai-engineering",
       "source": "./claude/jodaris-ai-engineering",
       "description": "Design prompts, retrieval behavior, model-response schemas, quality evaluations and inference budgets. Use for model-behavior changes; interface design, general software architecture and security controls are outside this skill. A different project-designated provider takes precedence.",
-      "version": "0.2.1"
+      "version": "0.3.0"
     }
   ]
 }

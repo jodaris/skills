@@ -1,6 +1,6 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "jodaris-software-engineering",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Design module boundaries, dependency direction and public API contracts. Use for architecture or interface-contract changes; routine coding, UI/UX, security controls and model behavior are outside this skill. A different project-designated provider takes precedence."
 }

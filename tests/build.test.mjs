@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { mkdtemp, cp, readFile, writeFile, symlink, rm } from "node:fs/promises";
+import { mkdtemp, cp, readFile, writeFile, symlink, rm, readdir } from "node:fs/promises";
 import path from "node:path";
 import os from "node:os";
 import { fileURLToPath } from "node:url";
@@ -16,6 +16,28 @@ test("four portable plugins have identical skill content across client packages"
   assert.equal(JSON.parse(files.get(`claude/${id}/.claude-plugin/plugin.json`)).version,catalog.version);
  }
  assert.equal(JSON.parse(files.get(".claude-plugin/marketplace.json")).plugins.length,4);
+});
+test("complete skill resources and relative Markdown links survive a standalone installation",async()=>{
+ const files=await planSkills(root);
+ const catalog=JSON.parse(await readFile(path.join(root,"catalog.json"),"utf8"));
+ for(const {id} of catalog.plugins){
+  const entries=await readdir(path.join(root,"src",id),{recursive:true,withFileTypes:true});
+  for(const entry of entries){
+   if(!entry.isFile()||entry.name.startsWith("._")||entry.name===".DS_Store")continue;
+   const relative=path.relative(path.join(root,"src",id),path.join(entry.parentPath,entry.name)).split(path.sep).join("/");
+   const source=await readFile(path.join(root,"src",id,relative),"utf8");
+   for(const client of ["codex","claude"]){
+    const installed=`${client}/${id}/skills/${id}/${relative}`;
+    assert.equal(files.get(installed),source,installed);
+    if(relative.endsWith(".md"))for(const match of source.matchAll(/\]\(([^)]+)\)/g)){
+     const target=match[1].split("#")[0];if(!target||/^[a-z]+:/i.test(target))continue;
+     const resolved=path.posix.normalize(path.posix.join(path.posix.dirname(installed),target));
+     assert.ok(resolved.startsWith(`${client}/${id}/skills/${id}/`),`Link escapes standalone skill: ${target}`);
+     assert.ok(files.has(resolved),`Missing installed reference: ${resolved}`);
+    }
+   }
+  }
+ }
 });
 test("check detects modified or unexpected generated output without overwriting it",async t=>{
  const dir=await fixture(t);await buildSkills(dir); const file=path.join(dir,"codex/jodaris-design/skills/jodaris-design/SKILL.md");

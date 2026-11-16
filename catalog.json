@@ -1,18 +1,21 @@
 {
   "schemaVersion": 1,
-  "version": "0.2.1",
+  "version": "0.3.0",
   "repository": "jodaris/skills",
   "plugins": [
     {
       "id": "jodaris-design",
       "name": "JODARIS Design",
-      "description": "Design interface interactions, visual hierarchy, responsive layouts and accessibility. Use for human-facing UX or presentation changes; backend architecture, security controls and model behavior are outside this skill. A different project-designated provider takes precedence.",
+      "description": "Design and review human-facing interfaces, visual systems, responsive layouts, accessibility and interaction motion. Use for UI/UX implementation or critique; backend architecture, security controls and model behavior are outside this skill. A different project-designated provider takes precedence.",
       "domain": "interface-design",
       "owns": [
         "interaction-specification",
         "visual-token-usage",
         "interface-accessibility",
-        "responsive-layout"
+        "responsive-layout",
+        "visual-direction",
+        "interaction-motion",
+        "interface-verification"
       ],
       "excludes": [
         "application-security",
